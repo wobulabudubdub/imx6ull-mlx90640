@@ -1,1 +1,0 @@
-cmd_/home/feifei/linux/my_drivers/icm20608_drv.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/feifei/linux/my_drivers/icm20608_drv.ko /home/feifei/linux/my_drivers/icm20608_drv.o /home/feifei/linux/my_drivers/icm20608_drv.mod.o
