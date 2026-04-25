@@ -1,0 +1,1 @@
+cmd_/home/feifei/my_camera_app/mlx90640/mlx90640_drv.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/feifei/my_camera_app/mlx90640/mlx90640_drv.ko /home/feifei/my_camera_app/mlx90640/mlx90640_drv.o /home/feifei/my_camera_app/mlx90640/mlx90640_drv.mod.o
