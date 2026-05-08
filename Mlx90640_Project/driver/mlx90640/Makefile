@@ -1,5 +1,5 @@
 # 1. 内核源码的绝对路径 (需要改成你电脑里内核源码的实际路径)
-KERNELDIR := /home/feifei/linux/kernel
+KERNELDIR := /home/feifei/linux/Mlx90640_Project/kernel
 
 # 2. 当前驱动代码所在的目录
 CURRENT_PATH := $(shell pwd)

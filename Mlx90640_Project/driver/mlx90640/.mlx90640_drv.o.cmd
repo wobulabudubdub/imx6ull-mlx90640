@@ -1,8 +1,8 @@
-cmd_/home/feifei/my_camera_app/mlx90640/mlx90640_drv.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/feifei/my_camera_app/mlx90640/.mlx90640_drv.o.d  -nostdinc -isystem /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/include -I./arch/arm/include -Iarch/arm/include/generated/uapi -Iarch/arm/include/generated  -Iinclude -I./arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(mlx90640_drv)"  -D"KBUILD_MODNAME=KBUILD_STR(mlx90640_drv)" -c -o /home/feifei/my_camera_app/mlx90640/.tmp_mlx90640_drv.o /home/feifei/my_camera_app/mlx90640/mlx90640_drv.c
+cmd_/home/feifei/linux/Mlx90640_Project/driver/mlx90640/mlx90640_drv.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/feifei/linux/Mlx90640_Project/driver/mlx90640/.mlx90640_drv.o.d  -nostdinc -isystem /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/include -I./arch/arm/include -Iarch/arm/include/generated/uapi -Iarch/arm/include/generated  -Iinclude -I./arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=6 -march=armv6k -mtune=arm1136j-s -msoft-float -Uarm -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(mlx90640_drv)"  -D"KBUILD_MODNAME=KBUILD_STR(mlx90640_drv)" -c -o /home/feifei/linux/Mlx90640_Project/driver/mlx90640/.tmp_mlx90640_drv.o /home/feifei/linux/Mlx90640_Project/driver/mlx90640/mlx90640_drv.c
 
-source_/home/feifei/my_camera_app/mlx90640/mlx90640_drv.o := /home/feifei/my_camera_app/mlx90640/mlx90640_drv.c
+source_/home/feifei/linux/Mlx90640_Project/driver/mlx90640/mlx90640_drv.o := /home/feifei/linux/Mlx90640_Project/driver/mlx90640/mlx90640_drv.c
 
-deps_/home/feifei/my_camera_app/mlx90640/mlx90640_drv.o := \
+deps_/home/feifei/linux/Mlx90640_Project/driver/mlx90640/mlx90640_drv.o := \
   include/linux/module.h \
     $(wildcard include/config/sysfs.h) \
     $(wildcard include/config/modules.h) \
@@ -672,6 +672,6 @@ deps_/home/feifei/my_camera_app/mlx90640/mlx90640_drv.o := \
   include/linux/kasan.h \
     $(wildcard include/config/kasan/shadow/offset.h) \
 
-/home/feifei/my_camera_app/mlx90640/mlx90640_drv.o: $(deps_/home/feifei/my_camera_app/mlx90640/mlx90640_drv.o)
+/home/feifei/linux/Mlx90640_Project/driver/mlx90640/mlx90640_drv.o: $(deps_/home/feifei/linux/Mlx90640_Project/driver/mlx90640/mlx90640_drv.o)
 
-$(deps_/home/feifei/my_camera_app/mlx90640/mlx90640_drv.o):
+$(deps_/home/feifei/linux/Mlx90640_Project/driver/mlx90640/mlx90640_drv.o):
