@@ -1,0 +1,1 @@
+#obj-m += mlx90640_drv.o

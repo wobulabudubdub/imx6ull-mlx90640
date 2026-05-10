@@ -1,0 +1,17 @@
+# 内核编译产物
+*.o
+*.ko
+*.mod.c
+*.mod.o
+*.cmd
+*.o.cmd
+Module.symvers
+modules.order
+*.ko.cmd
+.tmp_versions/
+# 用户程序
+Mlx90640_Project/my_camera_app/src/camera_app
+Mlx90640_Project/my_camera_app/src/mlx90640_app
+Mlx90640_Project/my_camera_app/src/mlx90640_lcd
+Mlx90640_Project/my_camera_app/src/mlx90640_rawdump
+Mlx90640_Project/my_camera_app/src/dual_app
